@@ -17,57 +17,61 @@
         <button class="signin-button">Sign In</button>
       </div>
       <div class="title cursor">
-        <h2>Intuit</h2>
+        <img src="../img/logo.png" alt="">
         <ul>
           <li class="cursor"><img class="icon"  src="../img/mint.svg" alt="mint icon" style="width: 24px" />mint</li>
           <li class="cursor"><img class="icon"  src="../img/quickbooks.svg" alt="quickbooks icon" style="width: 24px"/>quickbooks</li>
           <li class="cursor"><img class="icon"  src="../img/turbotax.svg" alt="turbotax icon" style="width: 24px" />turbotax</li>
         </ul>
       </div>
-      <div class="form-box">
-        <div class="form">
-          <h1>Create an Intuit account</h1>
-          <p>One account for everything Intuit, including Mint. <a href="learn-more.html">Learn more</a></p>
-  
-          <div class="input-wrapper">
-            <div>Email address</div>
-            <input type="email" name="email" id="email" />
-          </div>
-  
-          <div class="input-wrapper">
-            <div>Phone (recommended)</div>
-            <input type="text" name="phone" id="phone" />
-            <div class="desc">
-              Standard call, messaging or data rates may apply.
+      <form>
+        <div class="form-box">
+          <div class="form">
+            <h1>Create an Intuit account</h1>
+            <p>One account for everything Intuit, including Mint. <a href="learn-more.html">Learn more</a></p>
+    
+            <div class="input-wrapper">
+              <label for="Email address">Email Address
+              <input type="email" name="email" id="email" />
+            </label>
             </div>
+    
+            <div class="input-wrapper">
+              <label for="Phone">Phone (recommended)
+              <input type="tel" name="phone" id="phone" />
+              </label>
+              <div class="desc">
+                Standard call, messaging or data rates may apply.
+              </div>
+            </div>
+    
+            <div class="input-wrapper">
+              <label for="Password">Password
+              <input type="password" name="pass" id="pass" />
+              </label>
+            </div>
+            <div class="input-wrapper">
+              <label for="Confirm Password">Confirm Password
+              <input type="password" name="confirm-pass" id="confirm-pass" />
+            </div>
+    
+            <button type="submit">
+              Create Account
+            </button>
+    
+            <p class="terms">
+              By clicking Create account, you agree to our
+              <a href="/terms.html">Terms</a> and have read and acknowledge our
+              <a href="privacy.html">Privacy Statement</a>.
+            </p>    
           </div>
-  
-          <div class="input-wrapper">
-            <div>Password</div>
-            <input type="password" name="pass" id="pass" />
+          
+          <div class="recaptcha">
+            Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
           </div>
-  
-          <div class="input-wrapper">
-            <div>Confirm password</div>
-            <input type="password" name="confirm-pass" id="confirm-pass" />
-          </div>
-  
-          <button type="submit">
-            Create Account
-          </button>
-  
-          <p class="terms">
-            By clicking Create account, you agree to our
-            <a href="/terms.html">Terms</a> and have read and acknowledge our
-            <a href="privacy.html">Privacy Statement</a>.
-          </p>    
-        </div>
-        
-        <div class="recaptcha">
-          Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
         </div>
       </div>
-    </div>
+    </form>
 
     <footer>
       <div class="first-line">
