@@ -20,7 +20,6 @@ body {
 }
 
 .header-bar {
-  border: 2px solid red;
   display: grid;
   grid-template-columns: 90% 10%;
   text-align: right;
@@ -40,5 +39,49 @@ body {
   background: #0077c5;
   border: 1px #4c4c4c solid;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.title {
+  color: #8D9095;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.title h2 {
+  margin-bottom: -4px;
+  letter-spacing: 1px;
+}
+
+ul {
+  display: inline;
+  list-style-type: none;
+  margin-left:-40px;
+}
+
+li {
+  padding-left: 8px;
+  display: inline;
+  line-height: 30px;
+}
+
+.icon {
+  position: relative;
+  top: 7px;
+  margin-right: 4px;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  line-height: 3px;
+}
+
+footer a {
+  text-decoration: none;
+
+}
+
+.cursor {
   cursor: pointer;
 }
