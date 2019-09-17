@@ -14,3 +14,31 @@ body {
   color: rgba(0, 0, 0, 0.7);
   font-size: 24px;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.header-bar {
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: 90% 10%;
+  text-align: right;
+}
+
+.questions {
+  font-size: 12px;
+}
+
+.signin-button {
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-top: 11px;
+  height: 30px;
+  font-size: 14px;
+  color: #fff;
+  background: #0077c5;
+  border: 1px #4c4c4c solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
