@@ -14,4 +14,4 @@ HTML, CSS
 ### Links
 
 - **Assignment page** - [The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/forms-for-collecting-data)
-- **Live** - [Github pages]()
+- **Live** - [Github pages](https://yirano.github.io/mv-02-htmlcss-mint/src)
