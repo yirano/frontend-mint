@@ -40,7 +40,7 @@ a {
 /* TITLE  */
 
 .title {
-  color: #8D9095;
+  color: #8d9095;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -53,7 +53,7 @@ a {
 ul {
   display: inline;
   list-style-type: none;
-  margin-left:-40px;
+  margin-left: -40px;
 }
 
 li {
@@ -152,7 +152,6 @@ footer {
 footer a {
   color: inherit;
 }
-
 
 .cursor {
   cursor: pointer;
