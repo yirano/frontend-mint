@@ -40,9 +40,16 @@ a {
 /* TITLE  */
 
 .title {
-  color: #8d9095;
-  text-align: center;
   padding-bottom: 20px;
+  text-align: center;
+}
+
+.title > img{
+  display: block;
+  margin: 0 auto;
+  width: 130px;
+  padding-bottom: 10px;
+  opacity: .4;
 }
 
 .title h2 {
@@ -107,6 +114,7 @@ li {
   border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   line-height: 24px;
+  margin-top: 10px;
 }
 
 .form-box .desc {
@@ -141,6 +149,10 @@ li {
   color: rgba(0, 0, 0, 0.6);
 }
 
+label {
+  font-size: 13px;
+  color: rgb(67, 67, 67);
+}
 /* FOOTER  */
 
 footer {
@@ -156,3 +168,4 @@ footer a {
 .cursor {
   cursor: pointer;
 }
+
