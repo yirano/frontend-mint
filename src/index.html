@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>HTML Form</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div class="container">
@@ -18,40 +18,44 @@
       </div>
       <div class="title"></div>
       <div class="form-box">
-        <h1>Create an Intuit account</h1>
-        <p>One account for everything Intuit, including Mint. Learn more</p>
-
-        <div class="email-input">
-          Email address
-          <input type="email" name="email" id="email" />
+        <div class="form">
+          <h1>Create an Intuit account</h1>
+          <p>One account for everything Intuit, including Mint. <a href="learn-more.html">Learn more</a></p>
+  
+          <div class="input-wrapper">
+            <div>Email address</div>
+            <input type="email" name="email" id="email" />
+          </div>
+  
+          <div class="input-wrapper">
+            <div>Phone (recommended)</div>
+            <input type="text" name="phone" id="phone" />
+            <div class="desc">
+              Standard call, messaging or data rates may apply.
+            </div>
+          </div>
+  
+          <div class="input-wrapper">
+            <div>Password</div>
+            <input type="password" name="pass" id="pass" />
+          </div>
+  
+          <div class="input-wrapper">
+            <div>Confirm password</div>
+            <input type="password" name="pass" id="pass" />
+          </div>
+  
+          <button type="submit">
+            Create Account
+          </button>
+  
+          <p class="terms">
+            By clicking Create account, you agree to our
+            <a href="/terms.html">Terms</a> and have read and acknowledge our
+            <a href="privacy.html">Privacy Statement</a>.
+          </p>    
         </div>
-
-        <div class="phone-input">
-          Phone (recommended)
-          <input type="text" name="phone" id="phone" />
-          <span class="desc">
-            Standard call, messaging or data rates may apply.
-          </span>
-        </div>
-
-        <div class="pass">
-          Password
-          <input type="password" name="pass" id="pass" />
-        </div>
-
-        <div class="pass">
-          Confirm password
-          <input type="password" name="pass" id="pass" />
-        </div>
-
-        <button type="submit">
-          Create Account
-        </button>
-
-        <p>
-          By clicking Create account, you agree to our <a href="/terms.html">Terms</a> and have read and acknowledge our <a href="privacy.html">Privacy Statement</a>.
-        </p>
-
+        
         <div class="recaptcha">
           Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
         </div>
