@@ -1,22 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>HTML Form</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-bar"></div>
+      <div class="title"></div>
+      <div class="form-box">
+        <h1>Create an Intuit account</h1>
+        <p>One account for everything Intuit, including Mint. Learn more</p>
 
-  <div class="container">
-    <div class="header-bar"></div>
-    <div class="title"></div>
-    <div class="form-box"></div>
-    <div class="form-footer"></div>
-    
-  </div>
+        <div class="email-input">
+          Email address
+          <input type="email" name="email" id="email" />
+        </div>
 
-  <footer></footer>
-  
-</body>
+        <div class="phone-input">
+          Phone (recommended)
+          <input type="text" name="phone" id="phone" />
+          <span class="desc">
+            Standard call, messaging or data rates may apply.
+          </span>
+        </div>
+
+        <div class="pass">
+          Password
+          <input type="password" name="pass" id="pass" />
+        </div>
+
+        <div class="pass">
+          Confirm password
+          <input type="password" name="pass" id="pass" />
+        </div>
+
+        <button type="submit">
+          Create Account
+        </button>
+
+        <p>
+          By clicking Create account, you agree to our <a href="/terms.html">Terms</a> and have read and acknowledge our <a href="privacy.html">Privacy Statement</a>.
+        </p>
+
+        <div class="recaptcha">
+          Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
+        </div>
+      </div>
+      <div class="form-footer"></div>
+    </div>
+
+    <footer></footer>
+  </body>
 </html>
