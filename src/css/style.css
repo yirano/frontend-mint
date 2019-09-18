@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #eceef1;
+}
+
+a {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+/* HEADER BAR  */
+
+.header-bar {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  text-align: right;
+}
+
+.questions {
+  font-size: 12px;
+}
+
+.signin-button {
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-top: 11px;
+  height: 30px;
+  font-size: 14px;
+  color: #fff;
+  background: #0077c5;
+  border: 1px #4c4c4c solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* TITLE  */
+
+.title {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.title > img {
+  display: block;
+  margin: 0 auto;
+  width: 130px;
+  padding-bottom: 10px;
+  opacity: 0.4;
+}
+
+.title h2 {
+  margin-bottom: -4px;
+  letter-spacing: 1px;
+}
+
+ul {
+  display: inline;
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+li {
+  padding-left: 8px;
+  display: inline;
+  line-height: 30px;
+}
+
+.icon {
+  position: relative;
+  top: 7px;
+  margin-right: 4px;
+}
+
+/* FORM BOX  */
+
+.form-box {
+  width: 360px;
+  margin: auto;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+}
+
+.form-box .form {
+  padding: 20px 36px 0;
+}
+
+.form-box h1 {
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 24px;
+}
+
+.form-box p {
+  font-size: 13px;
+  text-align: center;
+}
+
+.form-box .input-wrapper {
+  margin: 24px 0;
+}
+
+.form-box .input-wrapper > div:first-child {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.form-box input {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+.form-box .desc {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 4px;
+}
+
+.form-box button {
+  line-height: 40px;
+  margin: auto;
+  width: 100%;
+  background: #0077c5;
+  border: #0077c5;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-box .terms {
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 36px 0;
+}
+
+.form-box div.recaptcha {
+  line-height: 60px;
+  text-align: center;
+  background-color: #eceef1;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+label {
+  font-size: 13px;
+  color: rgb(67, 67, 67);
+}
+
+/* FOOTER  */
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  line-height: 3px;
+}
+
+footer a {
+  color: inherit;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
